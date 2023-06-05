@@ -1,21 +1,22 @@
 import React from "react";
+import ProjectItem from "../components/ProjectItem";
+import { ProjectList } from "../helpers/ProjectList";
 
 
-import {FaFacebookSquare} from 'react-icons/fa'
-import {FaTwitter} from 'react-icons/fa'
-import {FaGithubSquare} from 'react-icons/fa'
 
-function Footer() {
-    return (
-      <div className="footer">
-        <div className="socialMedia">
-          <FaFacebookSquare/>
-          <FaTwitter/>
-          <FaGithubSquare/>
-        </div>
-        <p> &copy; 2023 Hira Soomro.</p>
+function Projects() {
+  return (
+    <div className="projects">
+      <h1> My Personal Projects</h1>
+      <div className="ProjectList">
+        {ProjectList.map((project, idx) => {
+          return (
+            <ProjectItem id={idx} name={project.name} image={project.image} />
+          );
+        })}
       </div>
-    );
-  }
-  
-  export default Footer;
+    </div>
+  );
+}
+
+export default Projects;
