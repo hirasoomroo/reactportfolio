@@ -1,0 +1,38 @@
+.contact-form {
+    margin-top: 20px;
+  }
+  
+  .contact-form-label {
+    color: #F06543;
+  }
+  
+  .contact-form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form-textarea {
+    width: 100%;
+    padding: 10px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form-message {
+    color: #F06543;
+    margin-top: 10px;
+  }
+  
+  .contact-form-submit {
+    background-color: #F06543;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .contact-form-submit:hover {
+    background-color: #D24A35;
+  }
+  
