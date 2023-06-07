@@ -17,12 +17,6 @@
     border-radius: 10px;
   }
   
-  .project p {
-    font-size: 40px;
-    color: #3e497a;
-  }
-  
-  .project svg {
-    font-size: 60px;
-    color: #3e497a;
-  }
+.projectImage {
+  height: 50px;
+}
