@@ -1,25 +1,27 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {Resume} from "/Users/hira/Desktop/bootcamp/ProfessionalPortfolio/Professionalportfolio/src/assets/Hira Soomro Resume.pdf"
+import Resume from "../assets/Resume.pdf"
+
 import {
   faGithub,
   faLinkedin,
  
 } from "@fortawesome/free-brands-svg-icons";
 import React from "react";
-
+import "../styles/footer.css"
 
 function Footer() {
   return (
     <div class="footer">
-      <h3>Github</h3>
+      
       <a href="https://www.linkedin.com/in/hira-soomro-3b9669249/"
         className="Linkedin social">
-        <FontAwesomeIcon icon={faLinkedin} size="2x" />
+        <FontAwesomeIcon icon={faLinkedin} size="6x" />
       </a>
       <a href="https://github.com/hirasoomroo" className="github social">
-        <FontAwesomeIcon icon={faGithub} size="2x" />
+        <FontAwesomeIcon icon={faGithub} size="6x" />
       </a>
-      <a href={Resume} className="link"> Resume</a>
+      <a href={Resume} download 
+      className="Resume"> Resume download</a>
       </div>
   );
 }
