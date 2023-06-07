@@ -18,6 +18,9 @@ function Footer() {
       <a href="https://github.com/hirasoomroo" className="github social">
         <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
+
+      <p className='footer-info'>
+                &copy; Hira Soomro  |  <a href= className="link">download resume</a> 
 </div>
   );
 }
