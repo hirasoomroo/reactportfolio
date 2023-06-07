@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {Resume} from "/Users/hira/Desktop/bootcamp/ProfessionalPortfolio/Professionalportfolio/src/assets/Hira Soomro Resume.pdf"
 import {
   faGithub,
   faLinkedin,
@@ -18,11 +19,11 @@ function Footer() {
       <a href="https://github.com/hirasoomroo" className="github social">
         <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
-
-      <p className='footer-info'>
-                &copy; Hira Soomro  |  <a href= className="link">download resume</a> 
-</div>
+      <a href={Resume} className="link"> Resume</a>
+      </div>
   );
 }
+      
+
 
 export default Footer;
