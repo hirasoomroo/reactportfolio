@@ -1,55 +1,55 @@
 .home {
-    margin: 20px;
-  }
-  
-  .about {
-    background-color: #f8f8f8;
-    padding: 20px;
-  }
-  
-  .prompt {
-    margin-top: 10px;
-  }
-  
-  .skills {
-    margin-top: 30px;
-  }
-  
-  .list {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  
-  .item {
-    background-color: #c8c6e5;
-    padding: 10px;
-    margin-bottom: 20px;
-  }
-  
-  h1 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  h2 {
-    font-size: 18px;
-    color:black;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  span {
-    display: block;
-    margin-top: 5px;
-    color: palevioletred;
-  }
+  margin: 20px;
+}
+
+.about {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.prompt {
+  margin-top: 10px;
+}
+
+.skills {
+  margin-top: 30px;
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.item {
+  background-color: #c8c6e5;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 18px;
+  color:black;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+span {
+  display: block;
+  margin-top: 5px;
+  color: palevioletred;
+}
 
 
 .skills {
-    margin-top: 30px;
-    color: rgb(219, 144, 238); 
-  }
-  
+  margin-top: 30px;
+  color: rgb(219, 144, 238); 
+}
 
-    
+
+  
