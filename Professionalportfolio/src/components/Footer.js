@@ -15,10 +15,10 @@ function Footer() {
       
       <a href="https://www.linkedin.com/in/hira-soomro-3b9669249/"
         className="Linkedin social">
-        <FontAwesomeIcon icon={faLinkedin} size="6x" />
+        <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
       <a href="https://github.com/hirasoomroo" className="github social">
-        <FontAwesomeIcon icon={faGithub} size="6x" />
+        <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
       <a href={Resume} download 
       className="Resume"> Resume download</a>

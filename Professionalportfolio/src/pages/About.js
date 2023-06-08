@@ -30,14 +30,14 @@ function Experience() {
       <h2> Front-End</h2>
       <span>
         ReactJS, Redux, HTML, CSS, React Native, NPM,
-        BootStrap, TailwindCSS, StyledComponents
+        BootStrap, TailwindCSS
       </span>
     </li>
     <li className="item">
       <h2>Back-End</h2>
       <span>
         NodeJS, Java Spring, .NET, ExpressJS, GraphQL, ApolloServer,
-        MySQL, MongoDB, DynamoDB, DigitalOcean, AWS S3, MS SQL
+        MySQL, MongoDB
       </span>
     </li>
     <li className="item">

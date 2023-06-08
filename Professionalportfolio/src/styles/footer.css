@@ -1,28 +1,28 @@
-  
-  .Resume {
-    display: inline-block;
-    background-color: #823c8d;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 4px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  .Resume:hover {
-    background-color: #6d297d;
-  }
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #f8f8f8;
-    padding: 20px;
-    text-align: center;
-  }
-  
+.footer {
+  /*position: fixed;*/
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
 
-  
+.footer a {
+  margin: 5px;
+  color: #333;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #007bff;
+}
+
+.social {
+  display: inline-block;
+}
+
+.resume {
+  display: inline-block;
+  margin-top: 10px;
+}

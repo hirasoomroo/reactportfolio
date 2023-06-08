@@ -21,7 +21,7 @@
   }
   
   .item {
-    background-color: #cfccff;
+    background-color: #c8c6e5;
     padding: 10px;
     margin-bottom: 20px;
   }
@@ -46,7 +46,7 @@
 
 .skills {
     margin-top: 30px;
-    color: black; 
+    color: rgb(0, 0, 0); 
   }
   
 
