@@ -4,7 +4,7 @@ import { validateEmail } from '../utils/helper';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import '../App.css';
-import './styles.contactform.css'
+import '../styles/contactform.css';
 
 function ContactForm() {
   const [formState, setFormState] = useState({ name: '', email: '', subject: '', message: '' });

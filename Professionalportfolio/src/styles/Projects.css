@@ -28,7 +28,7 @@
     width: 300px;
     height: 300px;
     margin: 40px;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 15px rgba(171, 81, 215, 0.2);
     text-align: center;
   }
   .projectItem:hover {

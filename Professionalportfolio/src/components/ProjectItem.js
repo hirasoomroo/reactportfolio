@@ -14,7 +14,9 @@ function ProjectItem({ image, name, id }) {
       <img src = {image} className= "projectImage" ></img>
       <h1> {name} </h1>
     </div>
+
+ 
   );
-}
+    }
 
 export default ProjectItem;

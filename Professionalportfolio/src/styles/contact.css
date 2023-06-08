@@ -58,7 +58,7 @@
   }
   
   a:hover {
-    color: #f06543;
+    color: #0f0e0e;
   }
   
   .form-message {
@@ -67,8 +67,8 @@
   }
   
   .btn {
-    background-color: #f06543;
-    border-color: #f06543;
+    background-color: #d460bf;
+    border-color: #0b0301;
     color: #fff;
     transition: background-color 0.3s ease-in-out;
   }

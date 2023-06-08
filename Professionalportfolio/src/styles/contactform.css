@@ -3,7 +3,7 @@
   }
   
   .contact-form-label {
-    color: #F06543;
+    color: #982878;
   }
   
   .contact-form-input {
@@ -20,12 +20,12 @@
   }
   
   .contact-form-message {
-    color: #F06543;
+    color: #b361ca;
     margin-top: 10px;
   }
   
   .contact-form-submit {
-    background-color: #F06543;
+    background-color: #b745c9;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -33,6 +33,6 @@
   }
   
   .contact-form-submit:hover {
-    background-color: #D24A35;
+    background-color: #000000;
   }
   
