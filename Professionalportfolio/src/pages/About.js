@@ -5,7 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import { FaSchool } from 'react-icons/fa';
 import { FaNetworkWired } from 'react-icons/fa';
-import profilePhoto from "../assets/profphoto.jpg";
+import profilePhoto from "../assets/profilephoto.JPG";
 
 function Experience() {
   const [selectedSection, setSelectedSection] = useState("about"); // Set the default selected section to "about"
@@ -22,7 +22,7 @@ function Experience() {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
         >
           <h3 className="vertical-timeline-element-title">
-            Who am I?
+            Hira S.
           </h3>
           <p>Hi! Welcome to my page. I am a full stack web developer who recently has graduate from a full stack web development bootcamp at University of California Irvine.
             I have worked in customer service for over 3 years before becoming an application specialist. After, I worked in a closed door pharmacy, urgent care,
