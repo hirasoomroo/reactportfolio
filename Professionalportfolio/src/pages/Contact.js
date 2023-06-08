@@ -16,7 +16,7 @@ function Contact() {
             <h1>Get in Touch</h1>
           </div>
         </Container>
-      
+     
 
       <Container fluid className="shadow bg-light mb-5">
         <Container className="p-4">

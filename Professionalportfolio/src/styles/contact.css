@@ -19,7 +19,7 @@
   }
   
   .bg-light {
-    background-color: #f8f9fa;
+    background-color: #e0b6e0;
   }
   
   .mb-5 {
@@ -43,12 +43,12 @@
   }
   
   h1 {
-    color: #f06543;
+    color: #f043ab;
     font-size: 2.5rem;
   }
   
   h4 {
-    color: #f06543;
+    color: #05050b;
     font-size: 1.5rem;
   }
   
@@ -62,7 +62,7 @@
   }
   
   .form-message {
-    color: #f06543;
+    color: #f043bf;
     margin-top: 10px;
   }
   

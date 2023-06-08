@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+
 import "../styles/navbar.css";
 
 
@@ -15,6 +16,7 @@ function Navbar() {
   return (
     <div className="navbar" id={expandNavbar ? "open" : "close"}>
       <div className="toggleButton">
+        
         <button
           onClick={() => {
             setExpandNavbar((prev) => !prev);
@@ -25,8 +27,8 @@ function Navbar() {
       </div>
       <div className="links">
         <Link to="/"> Home </Link>
+        <Link to="/About"> About Me </Link>
         <Link to="/Projects"> Projects </Link>
-        <Link to="/Experience"> Experience </Link>
         <Link to="/Contact"> Contact Me </Link>
       </div>
     </div>

@@ -5,17 +5,26 @@ import {
 } from "react-vertical-timeline-component";
 import {FaSchool} from 'react-icons/fa'
 import {FaNetworkWired} from 'react-icons/fa'
+import profilePhoto from "../assets/profphoto.jpg"; 
 
 function Experience() {
+  
   return (
+
+     
+  
     <div className="experience">
+       <img src={profilePhoto} alt="Profile Photo" className="profile-photo" />
+
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
+       
           className="vertical-timeline-element--education"
           date="2010 - 2014"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<FaSchool />}
-        >
+        
+         >
           <h3 className="vertical-timeline-element-title">
             Redondo Union High School
           </h3>
