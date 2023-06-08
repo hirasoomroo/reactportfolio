@@ -5,14 +5,11 @@ function ProjectItem({ image, name, id }) {
   const navigate = useNavigate();
   return (
     <div
-      className="projectItem"
-      onClick={() => {
-        navigate("/project/" + id);
-      }}
-    >
+      className="projectItem">
       
       <img src = {image} className= "projectImage" ></img>
-      <h1> {name} </h1>
+      <h1> <a href="https://github.com/hirasoomroo/Editorinprogress">{name} </a>
+      </h1>
     </div>
 
  

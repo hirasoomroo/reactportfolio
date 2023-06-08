@@ -18,6 +18,7 @@ export const ProjectList = [
   name: "PWA editor",
   image: Proj3,
   skills: "javascript, PWA"
-}
+},
+
 ]
 
