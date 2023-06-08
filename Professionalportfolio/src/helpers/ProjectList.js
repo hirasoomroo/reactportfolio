@@ -1,7 +1,7 @@
 import Proj1 from "../assets/Ecommerce.png";
 import Proj2 from "../assets/codingquiz.png"
 import Proj3 from "../assets/pwa.gif"
-
+import Proj4 from "../assets/Workday.png"
 export const ProjectList = [
 
   {
@@ -18,6 +18,12 @@ export const ProjectList = [
   name: "PWA editor",
   image: Proj3,
   skills: "javascript, PWA"
+},
+
+{
+  name: "Workday Scheduler",
+  image: Proj4,
+  skills: "javascript, HTML"
 },
 
 ]
