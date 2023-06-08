@@ -15,7 +15,7 @@ function Experience() {
     <div className="experience">
       <img src={profilePhoto} alt="Profile Photo" className="profile-photo" />
 
-      <VerticalTimeline lineColor="#8B008B">
+      <VerticalTimeline >
         <VerticalTimelineElement
           className="biography"
           iconStyle={{ background: "#3e497a", color: "#731963" }}
