@@ -34,6 +34,7 @@
   
   h2 {
     font-size: 18px;
+    color:black;
     font-weight: bold;
     margin-bottom: 5px;
   }
@@ -41,12 +42,13 @@
   span {
     display: block;
     margin-top: 5px;
+    color: palevioletred;
   }
 
 
 .skills {
     margin-top: 30px;
-    color: rgb(0, 0, 0); 
+    color: rgb(219, 144, 238); 
   }
   
 

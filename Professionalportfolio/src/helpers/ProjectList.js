@@ -2,6 +2,8 @@ import Proj1 from "../assets/Ecommerce.png";
 import Proj2 from "../assets/codingquiz.png"
 import Proj3 from "../assets/pwa.gif"
 import Proj4 from "../assets/Workday.png"
+import Proj5 from "../assets/oop.png"
+import Proj6 from "../assets/pwgen.png"
 export const ProjectList = [
 
   {
@@ -25,6 +27,15 @@ export const ProjectList = [
   image: Proj4,
   skills: "javascript, HTML"
 },
-
+{
+  name: "Object Oriented Programming",
+  image: Proj5,
+  skills: "javascript, HTML"
+},
+{
+  name: "Password generator",
+  image: Proj6,
+  skills: "javascript, HTML"
+},
 ]
 
