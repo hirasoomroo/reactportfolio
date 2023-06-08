@@ -6,10 +6,12 @@ import {
 import { FaSchool } from 'react-icons/fa';
 import { FaNetworkWired } from 'react-icons/fa';
 import profilePhoto from "../assets/profilephoto.JPG";
+import "../styles/about.css"
 
 function Experience() {
-  const [selectedSection, setSelectedSection] = useState("about"); // Set the default selected section to "about"
+  const [selectedSection, setSelectedSection] = useState("about"); 
 
+ 
   return (
     <div className="experience">
       <img src={profilePhoto} alt="Profile Photo" className="profile-photo" />
@@ -21,6 +23,29 @@ function Experience() {
           
           iconStyle={{ background: "#3e497a", color: "#fff" }}
         >
+           <div className="skills">
+  <h1> Skills</h1>
+  <ol className="list">
+    <li className="item">
+      <h2> Front-End</h2>
+      <span>
+        ReactJS, Redux, HTML, CSS, React Native, NPM,
+        BootStrap, TailwindCSS, StyledComponents
+      </span>
+    </li>
+    <li className="item">
+      <h2>Back-End</h2>
+      <span>
+        NodeJS, Java Spring, .NET, ExpressJS, GraphQL, ApolloServer,
+        MySQL, MongoDB, DynamoDB, DigitalOcean, AWS S3, MS SQL
+      </span>
+    </li>
+    <li className="item">
+      <h2>Languages</h2>
+      <span>JavaScript, MySQL</span>
+    </li>
+  </ol>
+</div>
           <h3 className="vertical-timeline-element-title">
             Hira S.
           </h3>
