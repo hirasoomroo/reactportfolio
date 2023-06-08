@@ -1,7 +1,5 @@
 import React from "react";
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Oswald:wght@500&family=Ubuntu:wght@500&display=swap');
-</style>
+
 
 function ProjectItem({ image, name }) {
   
