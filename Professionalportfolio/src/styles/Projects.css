@@ -5,10 +5,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+   
   }
   .projects .projectTitle {
     text-align: center;
-    color: #3e497a;
+    color: #101114;
     font-size: 60px;
     font-weight: bolder;
   }
