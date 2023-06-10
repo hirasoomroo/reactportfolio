@@ -1,8 +1,11 @@
 # reactportfolio
 <img width="1436" alt="image" src="https://github.com/hirasoomroo/reactportfolio/assets/120343929/a9461bb4-cfe6-4bdc-914c-405a4abb9179">
+***Task***
 
+Creating a single page react portfolio using what we have learned over the course of the bootcamp in the react segment. We are supposed to deisgn and build, and deploy a portfolio that includes contact information, wehre employers may send information; Have a picture up so future employers or anyone who visits the page knows who I am. Have a resume download as well as some social media pages.
 
 ***Description***
+
 GIVEN a single-page application portfolio for a web developer
 
 WHEN I load the portfolio
@@ -53,7 +56,9 @@ WHEN I view the footer
 
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 
-In the project directory, you can run:
+Direction to run in development mode:
+
+
 
 ### `npm start`
 
